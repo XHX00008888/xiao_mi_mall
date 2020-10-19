@@ -1,4 +1,4 @@
-# xiao_mi_mall
+# testmall
 
 ## Project setup
 ```
