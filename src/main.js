@@ -6,7 +6,7 @@ import App from './App.vue'
 import router from './router'
 // import env from './env'
 
-const mock = true
+const mock = false
 if (mock) {
   require('./mock/api')// 之所以不在开始使用import导入，是因为require是执行阶段导入，而import是编译阶段就导入了，而不会判断mock的值是否为true
 }
